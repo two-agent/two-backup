@@ -4,19 +4,15 @@ Auto-backup of OpenClaw workspace to GitHub.
 
 ## Quick Start
 
-### First-time setup (create GitHub repo):
+### Backup repository
 
-Option 1 - Create new repo under your account:
+**https://github.com/two-agent/two-backup**
+
+If you need to re-connect:
 ```bash
 cd /root/.openclaw/workspace
-gh repo create two-backup --public --source=. --remote=origin
-./backup.sh
-```
-
-Option 2 - Use existing repo:
-```bash
-cd /root/.openclaw/workspace
-git remote add origin https://github.com/YOUR_USERNAME/two-backup.git
+git remote remove origin
+git remote add origin https://github.com/two-agent/two-backup.git
 git push -u origin master
 ```
 
