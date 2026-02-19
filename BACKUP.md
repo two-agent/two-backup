@@ -41,7 +41,7 @@ Or with custom message:
 - ✅ Memory and workspace files
 - ✅ Analysis scripts
 - ✅ Project files
-- ✅ Configuration changes
+- ✅ OpenClaw config (config-backup/openclaw.json)
 
 - ❌ Twitter data export (too large/personal)
 - ❌ OpenClaw internal (.openclaw/)
