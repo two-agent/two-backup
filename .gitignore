@@ -35,3 +35,10 @@ media/
 *.mp4
 *.mov
 *.ogg
+
+# Skills (track code, not cache)
+!skills/
+skills/*/__pycache__/
+skills/*/.clawhub/
+skills/*/node_modules/
+skills/*/.DS_Store
